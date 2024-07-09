@@ -3,27 +3,31 @@ import streamlit as st
 about_page = st.Page(
     page='views/about_me.py',
     title='Обо мне',
+    icon=':material/person:',
     default=True
 )
-
 education_page = st.Page(
     page='views/education.py',
-    title='Образование'
+    title='Образование',
+    icon=':material/school:'
 )
 
 skills_page = st.Page(
     page='views/skills.py',
-    title='Навыки'
+    title='Навыки',
+    icon=':material/person_play:'
 )
 
 langs_page = st.Page(
     page='views/langs.py',
-    title='Языки'
+    title='Языки',
+    icon=':material/translate:'
 )
 
 position_page = st.Page(
     page='views/desired_pos.py',
-    title='Желаемая должность'
+    title='Желаемая должность',
+    icon=':material/person_search:'
 )
 
 pg = st.navigation(
