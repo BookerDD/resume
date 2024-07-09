@@ -1,8 +1,8 @@
 import streamlit as st
 
-col1, col2 = st.columns(2, gap='large', vertical_alignment='center')
+col1, col2 = st.columns(2, gap='small', vertical_alignment='center')
 with col1:
-    st.image('./photo/resume.png', width=300)
+    st.image('./photo/resume.png', width=250)
 with col2:
     st.title('Белов Андрей Юрьевич', anchor=False)
     st.text("""
